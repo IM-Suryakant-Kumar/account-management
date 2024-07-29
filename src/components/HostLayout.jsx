@@ -1,5 +1,10 @@
+import { Fragment } from "react"
+import { Navbar } from "."
+
 export const HostLayout = () => {
   return (
-    <div>HostLayout</div>
+    <Fragment>
+      <Navbar />
+    </Fragment>
   )
 }

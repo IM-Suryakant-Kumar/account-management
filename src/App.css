@@ -1,0 +1,22 @@
+/* navbar */
+nav.navbar-expand.navbar {
+	background-color: var(--color-secondary) !important;
+}
+
+nav.navbar-expand.navbar > .container > a {
+	color: var(--color-logo) !important;
+	font-family: var(--font-cinzel);
+	font-weight: bold;
+}
+
+nav.navbar-expand.navbar > .container .navbar-text {
+	color: var(--color-logo) !important;
+	font-family: var(--font-cinzel);
+  font-weight: bold;
+	font-size: 0.7rem;
+}
+
+nav.navbar-expand.navbar > .container .navbar-text > a {
+  font-size: 1rem;
+  color: var(--color-logo) !important;
+}

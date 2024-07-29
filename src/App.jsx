@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { Layout, HostLayout, AuthLayout } from "./components";
 import { Home, Login, Signup, NotFound } from "./pages";
+import "./App.css";
 
 function App() {
 	const router = createBrowserRouter(
