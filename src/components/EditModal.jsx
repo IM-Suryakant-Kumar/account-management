@@ -1,4 +1,5 @@
 import { Button, Stack } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export const EditModal = ({ setShowModal }) => {
 	const handleSubmit = (e) => {
@@ -34,4 +35,8 @@ export const EditModal = ({ setShowModal }) => {
 			</form>
 		</Stack>
 	);
+};
+
+EditModal.propTypes = {
+	setShowModal: PropTypes.func,
 };
