@@ -1,0 +1,57 @@
+/* navbar */
+nav.navbar-expand.navbar {
+	background-color: var(--color-secondary) !important;
+}
+
+nav.navbar-expand.navbar > .container > a {
+	color: var(--color-logo) !important;
+	font-family: var(--font-cinzel);
+	font-weight: bold;
+}
+
+nav.navbar-expand.navbar > .container .navbar-text {
+	color: var(--color-logo) !important;
+	font-family: var(--font-cinzel);
+  font-weight: bold;
+	font-size: 0.7rem;
+}
+
+nav.navbar-expand.navbar > .container .navbar-text > a {
+  font-size: 1rem;
+  color: var(--color-logo) !important;
+}
+
+/* login */
+.main-login {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 95%;
+  max-width: 400px;
+  padding: 2em 1.5em;
+  background-color: var(--color-secondary);
+  border-radius: 0.25em;
+  box-shadow: 2px 2px 4px 1px #33333330, -2px -2px 4px 1px #33333330;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+.title {
+  font-family: var(--font-cinzel);
+  font-weight: bold;
+  text-align: center;
+  color: var(--color-logo);
+  font-size: x-large;
+  margin-bottom: 1em;
+}
+
+button.primary {
+  background-color: var(--color-logo);
+  color: var(--color-primary);
+}
+

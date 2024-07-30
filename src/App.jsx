@@ -6,13 +6,14 @@ import {
 } from "react-router-dom";
 import { Layout, HostLayout, AuthLayout } from "./components";
 import { Home, Login, Signup, NotFound } from "./pages";
+import "./App.css";
 
 function App() {
 	const router = createBrowserRouter(
 		createRoutesFromElements(
-			<Route path="/" element={<Layout />}>
+			<Route element={<Layout />}>
 				<Route element={<HostLayout />}>
-					<Route index element={<Home />} />
+					<Route path="/" element={<Home />} />
 				</Route>
 				<Route element={<AuthLayout />}>
 					<Route path="login" element={<Login />} />

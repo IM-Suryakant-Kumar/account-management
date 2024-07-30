@@ -4,9 +4,9 @@ React application that allows users to create and manage accounts
 ## Todo
 - [ ] Static
   - [x] Layout setup
-  - [ ] Navbar component
+  - [x] Navbar component
   - [ ] Signup page
-  - [ ] Login page
+  - [X] Login page
   - [ ] Profile page
   - [ ] Edit account modal
   - [ ] NotFound page
