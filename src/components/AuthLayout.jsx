@@ -1,6 +1,8 @@
-import { Navigate, Outlet } from "react-router-dom";
+import { Navigate, Outlet, useLocation } from "react-router-dom";
 
 export const AuthLayout = () => {
-	const user = true;
-	return user ? <Navigate to="/" replace /> : <Outlet />;
+	const user = false;
+  const pathname = useLocation().state?.redirectTo || "/"
+
+	return user ? <Navigate to={pathname} replace /> : <Outlet />;
 };
