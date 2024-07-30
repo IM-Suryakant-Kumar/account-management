@@ -102,32 +102,39 @@ ul {
 	/* align-items: center; */
 	gap: 0.75em;
 	padding: 1em 1.5em;
-  padding: 2em;
+	padding: 2em;
 	border-radius: 0.25em;
-  position: relative;
+	position: relative;
 }
 
 .close-btn {
-  width: 1.8rem;
-  height: 1.8rem;
-  border-radius: 0.25em;
-  border: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: red;
-  font-weight: bold;
-  border-bottom: 2px solid red;
-  border-left: 2px solid red;
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 0.25em;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: red;
+	font-weight: bold;
+	border-bottom: 2px solid red;
+	border-left: 2px solid red;
 }
 
 .close-btn:hover {
-  background-color: red;
-  color: white;
+	background-color: red;
+	color: white;
 }
 
 .edit-form > label {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+}
+
+.not-found {
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	font-size: x-large;
 }
