@@ -6,7 +6,7 @@ React application that allows users to create and manage accounts
   - [x] Layout setup
   - [x] Navbar component
   - [ ] Signup page
-  - [ ] Login page
+  - [X] Login page
   - [ ] Profile page
   - [ ] Edit account modal
   - [ ] NotFound page
