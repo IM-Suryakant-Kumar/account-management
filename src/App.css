@@ -55,3 +55,23 @@ button.primary {
   color: var(--color-primary);
 }
 
+/* home */
+.profile-heading {
+  margin-top: 1em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.list-cont, .edit-button {
+  width: 95%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.lite-item {
+  display: flex;
+  justify-content: space-between;
+}
