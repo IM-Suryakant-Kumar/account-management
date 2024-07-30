@@ -7,8 +7,8 @@ React application that allows users to create and manage accounts
   - [x] Navbar component
   - [x] Signup page
   - [X] Login page
-  - [ ] Profile page
-  - [ ] Edit account modal
+  - [x] Home page
+  - [x] Edit account modal
   - [ ] NotFound page
 - [ ] Dynamic version
   - [ ] implementing redux toolkit and functions

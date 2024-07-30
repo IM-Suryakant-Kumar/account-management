@@ -1,7 +1,9 @@
 import { Button, Stack } from "react-bootstrap";
+import { EditModal } from "../components";
+import { useState } from "react";
 
 export const Home = () => {
-	const handleModal = () => {};
+	const [showModal, setShowModal] = useState(false);
 
 	return (
 		<main>
@@ -24,9 +26,11 @@ export const Home = () => {
 						<span className="h6">Favorite color:</span> N/A
 					</li>
 				</Stack>
-				<Button onClick={handleModal} className="edit-button">
+				<Button onClick={() => setShowModal(true)} className="edit-button">
 					Edit Account
 				</Button>
+				{/* edit modal */}
+				{showModal && <EditModal setShowModal={setShowModal} />}
 			</Stack>
 		</main>
 	);
