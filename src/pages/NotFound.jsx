@@ -1,5 +1,5 @@
+import { Stack } from "react-bootstrap";
+
 export const NotFound = () => {
-  return (
-    <div>NotFound</div>
-  )
-}
+	return <Stack className="not-found">PAGE NOT FOUND - 404!</Stack>;
+};
